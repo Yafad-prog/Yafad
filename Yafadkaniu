@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Yafadkaniu Ishaku</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 0.5rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <nav>
+            <a href="#about">about me</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">0701705252</a>
+            <a href="#resume">Resume</a>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Write a detailed biography here. A linguist and translation advisor passionate about documenting Indigenous languages in Nigeria and researching Bəna languages, especially the syntactical typological study of its sentences and forms and how these can affect Bible translation positively. I love Worship and country music, and I also love writing and language analysis with a special interest in classical Hebrew    .</p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>List and describe your professional and personal projects here. Include links and images if applicable.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <p>Feel free to reach out through the following methods:</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4"></textarea><br>
+                <input type="submit" value="Send">
+            </form>
+            <p>Email: your.yishaku94@gmail.com.com</p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile">linkedin.com/in/yourprofile</a></p>
+        </section>
+        <section id="resume">
+            <h2>Resume</h2>
+            <p>Download my resume <a href="resume.pdf" download>here</a>.</p>
+            <p>Or view key sections below:</p>
+            <h3>Experience</h3>
+            <p>List your professional experience here.</p>
+            <h3>Education</h3>
+            <p>List your educational background here.</p>
+            <h3>Skills</h3>
+            <p>List your skills here.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
